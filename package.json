@@ -1,11 +1,12 @@
 {
-  "name": "react-native-image-cache-hoc",
+  "name": "@sunxingzhe/react-native-image-cache-hoc",
   "version": "2.0.0",
   "description": "React Native Higher Order Component that adds advanced caching functionality to the react native Image component.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage && if [ \"$COVERALLS_ENV\" = \"production\" ]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "npm publish --access public --registry http://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
